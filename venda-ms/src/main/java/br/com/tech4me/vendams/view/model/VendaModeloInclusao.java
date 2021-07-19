@@ -7,7 +7,6 @@ public class VendaModeloInclusao {
     private int quantidadeVendida;
     private LocalDate dataVendida;
 
-    //#region Get / Set
     public String getProdutoVendido() {
         return produtoVendido;
     }
@@ -26,5 +25,5 @@ public class VendaModeloInclusao {
     public void setDataVendida(LocalDate dataVendida) {
         this.dataVendida = dataVendida;
     }
-    //#endregion
+
 }

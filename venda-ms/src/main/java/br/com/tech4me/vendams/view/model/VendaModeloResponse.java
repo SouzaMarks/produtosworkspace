@@ -9,7 +9,6 @@ public class VendaModeloResponse {
     private LocalDate dataVendida;
     private Boolean temEmEstoque;
 
-    //#region Get / Set
     public String getId() {
         return id;
     }
@@ -40,5 +39,4 @@ public class VendaModeloResponse {
     public void setTemEmEstoque(Boolean temEmEstoque) {
         this.temEmEstoque = temEmEstoque;
     }
-    //#endregion
 }
