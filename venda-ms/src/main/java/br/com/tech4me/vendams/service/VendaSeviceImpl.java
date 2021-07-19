@@ -13,7 +13,7 @@ import br.com.tech4me.vendams.repository.VendaRepository;
 import br.com.tech4me.vendams.shared.VendaDto;
 
 @Service
-public class VendaSeviceImp implements VendaService {
+public class VendaSeviceImpl implements VendaService {
     @Autowired
     private VendaRepository repositorio;
 
